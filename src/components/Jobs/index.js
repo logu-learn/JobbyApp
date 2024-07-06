@@ -203,7 +203,7 @@ class Jobs extends Component {
             data-testid="searchButton"
             onClick={this.getJobsList}
           >
-            <BsSearch className="search-icon" />
+            <BsSearch className="search-icon"  aria-label="searchIcon"/>
           </button>
         </div>
       </div>
