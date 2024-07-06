@@ -28,20 +28,20 @@ const Header = props => {
           <li>
             <Link to="/">
               <button type="button">
-                <AiFillHome className="route-icon" />
+                <AiFillHome className="route-icon" aria-label="homeIcon"/>
               </button>
             </Link>
           </li>
           <li>
             <Link to="/jobs">
               <button type="button">
-                <BsBriefcaseFill className="route-icon" />
+                <BsBriefcaseFill className="route-icon" aria-label="briefcaseIcon"/>
               </button>
             </Link>
           </li>
           <li>
             <button type="button" onClick={onClickLogout}>
-              <FiLogOut className="route-icon" />
+              <FiLogOut className="route-icon" aria-label="logoutIcon"/>
             </button>
           </li>
         </ul>
